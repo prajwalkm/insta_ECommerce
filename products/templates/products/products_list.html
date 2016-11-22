@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{%block content%}
+<div>
+<h3>All Products</h3>
+<hr style="color:black;size:2px">
+<br/>
+</div>	
+{% include "products/products.html" with object_list=object_list %}
+
+{%endblock%} 
