@@ -24,6 +24,8 @@ class UserAddressCreateView(CreateView):
 		return super(UserAddressCreateView,self).form_valid(form,*args,**kwargs)
 
 
+	
+	
 
 class AddressSelectFormView(CartOrderMixin,FormView):
 	form_class=AddressForm
